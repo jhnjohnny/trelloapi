@@ -12,7 +12,7 @@ import { AuthModule } from './auth/auth.module';
   imports: [
     ApiModule,
     UsersModule,
-    MongooseModule.forRoot('mongodb+srv://dbUser:dbUserPassword@cluster0-tzov9.gcp.mongodb.net/trello?retryWrites=true&w=majority'),
+    MongooseModule.forRoot('mongodb+srv://dbUser:dbUserPassword@cluster0-zzzzz.gcp.mongodb.net/trello?retryWrites=true&w=majority'),
     AuthModule,
   ],
   controllers: [AppController],
